@@ -20,8 +20,6 @@
         "symfony/framework-bundle": "5.4.*"
     },
     "autoload": {
-        "autoload": {
             "psr-4": { "dsi-iep\\Bundle\\Tools-bundle\\": "" }
-        }
     }
 }
