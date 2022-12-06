@@ -23,6 +23,5 @@
             "tools-bundle": "src"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "alpha"
 }
