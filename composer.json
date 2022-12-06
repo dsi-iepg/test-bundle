@@ -1,7 +1,8 @@
 {
-    "version": "0.1",
     "name": "dsi-iepg/test-bundle",
     "type": "symfony-bundle",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "description": "this's a test !! :)",
     "keywords": ["test"],
     "homepage": "https://github.com/dsi-iepg/test-bundle",
@@ -22,6 +23,5 @@
         "psr-0": {
             "tools-bundle": "src"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
