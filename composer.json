@@ -2,7 +2,6 @@
     "name": "dsi-iepg/test-bundle",
     "description": "This's a test Bundle",
     "require": {
-        "php": ">=7.4",
-        "another-vendor/package": "1.*"
+        "php": ">=7.4"
     }
 }
