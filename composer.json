@@ -1,7 +1,7 @@
 {
     "version": "0.1",
     "name": "dsi-iepg/test-bundle",
-    "type": "library",
+    "type": "symfony-bundle",
     "description": "this's a test !! :)",
     "keywords": ["test"],
     "homepage": "https://github.com/dsi-iepg/test-bundle",
@@ -15,11 +15,14 @@
         }
     ],
     "require": {
-        
+        "php": ">=7.2.5",
+        "symfony/framework-bundle": "5.4.*"
     },
     "autoload": {
         "psr-0": {
             "tools-bundle": "src"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
