@@ -1,3 +1,6 @@
+https://nouvelle-techno.fr/articles/symfony-5-on-va-creer-un-bundle-niveau-moyen-avance
+
+
 add
 config/bundlex.php
 ```Iepg\Bundle\TestBundle::class => ['all' => true],```
@@ -20,6 +23,7 @@ php bin/console config:dump-reference
 -|-|-
 TestBundle|iepgdsi|
 || 
+
 
 create config/routes/tuto_tools.yaml
 ```
