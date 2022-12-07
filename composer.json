@@ -1,5 +1,6 @@
 {
-    "name": "dsi-iepg/test-bundle",
+    "version": "v0.1-ALPHA",
+    "name": "dsi-iepg/testing",
     "type": "symfony-bundle",
     "minimum-stability": "stable",
     "prefer-stable": true,

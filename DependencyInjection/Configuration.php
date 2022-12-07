@@ -8,7 +8,7 @@ class Configuration implements ConfigurationInterface
 {
     function getConfigTreeBuilder()
     {
-        $builder = new TreeBuilder('tuto_tools');
+        $builder = new TreeBuilder('iepg_test');
 
         $rootNode = $builder->getRootNode();
         $rootNode->children()
