@@ -8,6 +8,14 @@ use Iepg\Bundle\DependencyInjection\TutoToolsExtension;
 
 class TestBundle extends Bundle
 {
+    public function getContainerExtension()
+    {
+        if (null === $this->extension) {
+            $this->extension = new TutoToolsExtension();
+        }
+        return $this->extension;
+    }
+    
     public function build(ContainerBuilder $container)
     {
         parent::build($container);
