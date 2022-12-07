@@ -1,5 +1,5 @@
 <?php
-namespace Tuto\ToolsBundle\DependencyInjection;
+namespace Iepg\Bundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;

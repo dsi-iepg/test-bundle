@@ -20,6 +20,6 @@
         "symfony/framework-bundle": "5.4.*"
     },
     "autoload": {
-            "psr-4": { "dsi-iep\\test-bundle\\": "" }
+            "psr-4": { "Iepg\\Bundle": "" }
     }
 }

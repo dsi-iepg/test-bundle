@@ -1,5 +1,5 @@
 <?php
-namespace Tuto\ToolsBundle\DependencyInjection;
+namespace Iepg\Bundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

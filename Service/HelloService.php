@@ -1,5 +1,5 @@
 <?php
-namespace Tuto\ToolsBundle\Service;
+namespace Iepg\Bundle\Service;
 
 class HelloService
 {

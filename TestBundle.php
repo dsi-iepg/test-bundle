@@ -1,12 +1,12 @@
 <?php
 
-namespace Tuto\ToolsBundle;
+namespace Iepg\Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Tuto\ToolsBundle\DependencyInjection\TutoToolsExtension;
+use Iepg\Bundle\DependencyInjection\TutoToolsExtension;
 
-class TutoToolsBundle extends Bundle
+class TestBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {
