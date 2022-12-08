@@ -1,33 +1,37 @@
 {
-    "name": "dsi-iepg/testing",
-    "type": "symfony-bundle",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "description": "this's a test !! :)",
-    "keywords": ["test"],
-    "homepage": "https://github.com/dsi-iepg/test-bundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Laurent Gina",
-            "email": "laurengina@iegp.fr",
-            "homepage": "http://test.ts",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=7.2.5",
-        "symfony/framework-bundle": "5.4.*"
-    },
-    "autoload": {
-            "psr-4": { "Iepg\\Bundle\\": "" }
-    },
-    "extra": {
-        "symfony": {
-            "endpoint": [
-                "https://api.github.com/dsi-iepg/recipesTest/blob/main/contents/index.json",
-                "flex://defaults"
-            ]
-        }
+  "name": "dsi-iepg/testing",
+  "type": "symfony-bundle",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "description": "this's a test !! :)",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/dsi-iepg/test-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Laurent Gina",
+      "email": "laurengina@iegp.fr",
+      "homepage": "http://test.ts",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "symfony/framework-bundle": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Iepg\\Bundle\\": ""
+    }
+  },
+  "extra": {
+    "dsi-iepg": {
+      "endpoint": [
+        "https://api.github.com/dsi-iepg/recipesTest/blob/main/contents/index.json",
+        "flex://defaults"
+      ]
+    }
+  }
 }
