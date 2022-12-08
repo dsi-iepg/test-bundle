@@ -14,8 +14,18 @@ class BundleController extends AbstractController
     */
     public function index(): Response
     {
-        return $this->render('@tuto_tools/mybundle/index.html.twig', [
+        return $this->render('@iepgdsi/index.html.twig', [
             'controller_name' => "Hej c'est moi le bundle ",
+        ]);
+    }
+
+    /**
+     * @Route("/hello-bundle2", name="tuto_tools_homee", methods={"GET","POST"})
+     */
+    public function index2(WithParameterService $service): Response
+    {
+        return $this->render('@iepgdsi/index.html.twig', [
+            'controller_name' => $service->sayHello(),
         ]);
     }
 }

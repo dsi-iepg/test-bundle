@@ -17,9 +17,18 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "symfony/framework-bundle": "5.4.*"
+        "symfony/framework-bundle": ">=5.4.*",
+        "symfony/security-bundle": ">=5.4.*"
     },
     "autoload": {
             "psr-4": { "Iepg\\Bundle\\": "" }
+    },
+    "extra": {
+        "symfony": {
+            "endpoint": [
+                "https://github.com/dsi-iepg/recipesTest/blob/main/contents/index.json",
+                "flex://defaults"
+            ]
+        }
     }
 }

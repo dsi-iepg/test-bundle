@@ -3,7 +3,9 @@ https://nouvelle-techno.fr/articles/symfony-5-on-va-creer-un-bundle-niveau-moyen
 
 add
 config/bundlex.php
-```Iepg\Bundle\TestBundle::class => ['all' => true],```
+```
+Iepg\Bundle\TestBundle::class => ['all' => true],
+```
 
 create => config/packages/iepg_test.yaml
 Ici le 'iepg_test' vient de:
