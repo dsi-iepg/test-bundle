@@ -18,10 +18,10 @@ class TutoToolsExtension extends Extension implements PrependExtensionInterface
 
         $config = $this->processConfiguration(new Configuration(), $configs);
 
-        $container->setParameter('tuto_tools.my_var_string', $config['my_var_string']);
-        $container->setParameter('tuto_tools.my_array', $config['my_array']);
-        $container->setParameter('tuto_tools.my_integer', $config['my_integer']);
-        $container->setParameter('tuto_tools.my_var_string_option', $config['my_var_string_option']);
+        $container->setParameter('iepgdsi.my_var_string', $config['my_var_string']);
+        $container->setParameter('iepgdsi.my_array', $config['my_array']);
+        $container->setParameter('iepgdsi.my_integer', $config['my_integer']);
+        $container->setParameter('iepgdsi.my_var_string_option', $config['my_var_string_option']);
     }  
 
     public function prepend(ContainerBuilder $container)

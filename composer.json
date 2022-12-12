@@ -19,7 +19,10 @@
   ],
   "require": {
     "php": ">=7.2.5",
-    "symfony/framework-bundle": "5.4.*"
+    "symfony/framework-bundle": "5.4.*",
+    "symfony/security-bundle": "^5.4|^6.0",
+    "symfony/security-core": "^5.4|^6.0",
+    "symfony/security-http": "^5.4|^6.0"
   },
   "autoload": {
     "psr-4": {
@@ -27,9 +30,9 @@
     }
   },
   "extra": {
-    "dsi-iepg": {
+    "symfony": {
       "endpoint": [
-        "https://api.github.com/dsi-iepg/recipesTest/blob/main/contents/index.json",
+        "https://api.github.com/repos/dsi-iepg/recipesTest/contents/index.json",
         "flex://defaults"
       ]
     }
