@@ -24,7 +24,7 @@
     "symfony/security-core": "^5.4 || ^6.0",
     "symfony/security-http": "^5.4 || ^6.0",
     "symfony/http-client": "^5.4 || ^6.0",
-    "composer require symfony/twig-bundle": "^5.4 || ^6.0",
+    "symfony/twig-bundle": "^5.4 || ^6.0",
     "doctrine/annotations": "^1.14"
   },
   "autoload": {
