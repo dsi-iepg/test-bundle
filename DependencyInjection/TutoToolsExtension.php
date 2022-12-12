@@ -32,7 +32,7 @@ class TutoToolsExtension extends Extension implements PrependExtensionInterface
         $container->prependExtensionConfig('twig', $twigConfig);
     }   
     
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'iepgdsi';
     }
