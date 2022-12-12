@@ -8,7 +8,7 @@ use Iepg\Bundle\DependencyInjection\TutoToolsExtension;
 
 class TestBundle extends Bundle
 {
-    public function getContainerExtension()
+    public function getContainerExtension(): ?TutoToolsExtension
     {
         if (null === $this->extension) {
             $this->extension = new TutoToolsExtension();
